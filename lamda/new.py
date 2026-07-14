@@ -25,7 +25,7 @@ second_high = lambda lst: sorted(lst,reverse=True)[1]
 
 print(second_high(lst1))
 
-## Find the LCM of 2 numbers
+# Find the LCM of 2 numbers
 # first find GCD
 gcd = lambda a,b: a if b == 0 else gcd(b,a%b)
 
